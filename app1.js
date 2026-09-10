@@ -24,4 +24,4 @@ else {
     tax = basicSalary * 2 / 100;
 }
 finalSalary = basicSalary + bonus - tax;
-document.getElementById("Salary").innerText = `Salary slip\n` + `Employe Name: ${employeName}\n`+`Basic Salary: ${basicSalary}\n`+`Bonus:${bonus}\n` + `Tax:${tax}\n` + `Final salary:${finalSalary}`;
+document.getElementById("Salary").innerHTML = `Salary slip<br>` + `Employe Name: ${employeName}<br>`+`Basic Salary: ${basicSalary}<br>`+`Bonus:${bonus}<br>` + `Tax:${tax}<br>` + `Final salary:${finalSalary}`;
