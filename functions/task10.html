@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Score Tracker</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+
+    <div class="bg-white p-8 rounded-lg shadow-lg w-96">
+
+        <h1 class="text-2xl font-bold text-blue-600 mb-5">
+            JavaScript Quiz
+        </h1>
+
+        <p>1. Which keyword declares a variable?</p>
+        <label>
+            <input type="radio" name="q1" value="let">
+            let
+        </label>
+        <label>
+            <input type="radio" name="q1" value="print">
+            print
+        </label>
+
+        <p class="mt-4">2. Which method displays output in the console?</p>
+        <label>
+            <input type="radio" name="q2" value="console">
+            console.log()
+        </label>
+        <label>
+            <input type="radio" name="q2" value="display">
+            display()
+        </label>
+
+        <p class="mt-4">3. Which symbol is used for strict equality?</p>
+        <label>
+            <input type="radio" name="q3" value="===">
+            ===
+        </label>
+        <label>
+            <input type="radio" name="q3" value="=">
+            =
+        </label>
+
+        <button onclick="submitQuiz()"
+            class="bg-blue-500 text-white px-5 py-2 rounded-lg mt-6">
+            Submit
+        </button>
+
+        <h2 id="result" class="mt-5 font-bold"></h2>
+
+    </div>
+
+    <script src="function10.js"></script>
+
+</body>
+</html>
